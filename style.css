@@ -1,0 +1,56 @@
+body{
+margin:0;
+font-family:Segoe UI, sans-serif;
+background:#f8fafc;
+}
+.top{
+display:flex;
+align-items:center;
+gap:15px;
+background:linear-gradient(to right,#4f46e5,#6366f1);
+color:white;
+padding:15px;
+}
+.logo{height:50px;}
+.menu{
+background:#111827;
+height:100vh;
+padding:20px;
+}
+.menu a{
+display:block;
+color:white;
+text-decoration:none;
+padding:12px;
+margin-bottom:10px;
+background:#1f2933;
+border-radius:6px;
+}
+.menu a:hover{background:#4f46e5;}
+.form-box{
+width:400px;
+margin:40px auto;
+padding:25px;
+background:white;
+border-radius:10px;
+box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+.form-box img{
+width:120px;
+display:block;
+margin:auto;
+}
+input{
+width:100%;
+padding:10px;
+margin:8px 0 15px 0;
+}
+button{
+width:100%;
+padding:12px;
+background:#22c55e;
+color:white;
+border:none;
+border-radius:6px;
+font-size:16px;
+}
